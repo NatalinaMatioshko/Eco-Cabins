@@ -2,76 +2,125 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.ico.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover EcoCabins: sustainable tiny homes crafted from natural materials for a greener future."
+    />
     <title>EcoCabins</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
       <section class="first-sect hero">
-        <div class="container">
+        <div class="container head-cont">
+          <a class="logo" href="./index.html">
+            <svg class="icon-logo" width="135" height="25.83">
+              <use href="./images/sprite.svg#logo-full"></use>
+            </svg>
+          </a>
+
           <ul class="head-menu">
             <li class="head-list">Modellen</li>
             <li class="head-list">Kopen</li>
             <li class="head-list">Huren</li>
-            <li class="head-list">Huren</li>
+            <li class="head-list">Nieuws</li>
             <li class="head-list contact">Contact</li>
           </ul>
         </div>
 
-        <div class="container">
-          <h4 class="fourth-title">Duurzame tiny huisjes</h4>
-          <h1 class="main-title">
-            Een ecologisch tiny huisje is zoveel mogelijk opgebouwd uit duurzame
-            natuurlijke materialen
-          </h1>
-        </div>
+        <dev class="hero-main-cont">
+          <div class="container hero-cont">
+            <h4 class="fourth-title">Duurzame tiny huisjes</h4>
+            <h1 class="main-title">
+              Een ecologisch tiny huisje is zoveel mogelijk opgebouwd uit
+              duurzame natuurlijke materialen
+            </h1>
+          </div>
 
-        <div class="container">
-          <p class="main-page">Bekijk de film</p>
-        </div>
+          <div class="container hero-play">
+            <svg class="play" width="32" height="32">
+              <use href="./images/sprite.svg#play"></use>
+            </svg>
+            <p class="main-page film">Bekijk de film</p>
+          </div>
 
-        <div class="container">
-          <ul class="social-menu">
-            <li class="social-list">
-              <a
-                class="social-link"
-                href="https://instagram.com/"
-                target="_blank"
-                >Instagram</a
-              >
-            </li>
-            <li class="social-list">
-              <a
-                class="social-link"
-                href="https://facebook.com/"
-                target="_blank"
-                >Facebook</a
-              >
-            </li>
-            <li class="social-list">
-              <a
-                class="social-link"
-                href="https://linkedin.com/"
-                target="_blank"
-                >Linkedin</a
-              >
-            </li>
-          </ul>
-        </div>
+          <div class="container social-cont">
+            <ul class="social-menu">
+              <li class="social-list">
+                <a
+                  class="social-link"
+                  href="https://instagram.com/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </li>
+              <li class="social-list">
+                <a
+                  class="social-link"
+                  href="https://facebook.com/"
+                  target="_blank"
+                  >Facebook</a
+                >
+              </li>
+              <li class="social-list">
+                <a
+                  class="social-link"
+                  href="https://linkedin.com/"
+                  target="_blank"
+                  >Linkedin</a
+                >
+              </li>
+            </ul>
+          </div>
+        </dev>
       </section>
 
       <section class="second-section">
-        <h2 class="sec-title">Duurzame materialen</h2>
-        <p class="main-page">
-          Alle EcoCabins hebben een hoge isolatiewaarde, worden geproduceerd met
-          indien mogelijk duurzame en/of natuurlijke materialen en hebben als
-          opvallende uiterlijke kenmerk de ‘ronde hoeken’, mogelijk gemaakt door
-          het specifieke materiaalgebruik. De voordelen van bouwen met hout zijn
-          legio: hout is licht, flexibel, isoleert goed en bouwt snel en
-          efficiënt.
-        </p>
-        <button class="button"></button>
+        <div class="container">
+          <h2 class="sec-title">Duurzame materialen</h2>
+          <p class="main-page">
+            Alle EcoCabins hebben een hoge isolatiewaarde, worden geproduceerd
+            met indien mogelijk duurzame en/of natuurlijke materialen en hebben
+            als opvallende uiterlijke kenmerk de ‘ronde hoeken’, mogelijk
+            gemaakt door het specifieke materiaalgebruik. De voordelen van
+            bouwen met hout zijn legio: hout is licht, flexibel, isoleert goed
+            en bouwt snel en efficiënt.
+          </p>
+          <button class="button"></button>
+        </div>
+
+        <div class="container">
+          <img
+            class="materials"
+            src="./images/second@2x.png"
+            alt="Wooden construction"
+          />
+        </div>
       </section>
 
       <section class="third-section">
@@ -126,9 +175,16 @@
     </main>
     <footer>
       <address>
-        <mail class=":">info@eco-cabins.com</mail>
-        <a class="logo-tipe" href=""></a>
+        <a class="mail-link" href="mailto:info@eco-cabins.com"
+          >info@eco-cabins.com</a
+        >
       </address>
+      <a class="logo-tipe" href="./index.html">
+        <svg class="icon-logo" width="135" height="25.83">
+          <use href="./images/sprite.svg#logo-full"></use>
+        </svg>
+      </a>
+
       <ul>
         <li>Cookies</li>
         <li>Privacybeleid</li>
