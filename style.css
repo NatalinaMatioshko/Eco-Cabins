@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Rubik", "Merriweather" sans-serif;
+  font-family: "Rubik", "Merriweather", sans-serif;
   background-color: #ffffff;
   color: #434455;
 }
@@ -51,11 +51,14 @@ img {
   /* max-width: 320px; */
   /* padding: 0 16px; */
   margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
 }
-/* ==================================================== */
+/* ================= Header and Hero Section=========================== */
 
 .first-sect {
-  height: 600px;
+  min-height: 100vh;
 }
 
 .hero {
@@ -90,10 +93,22 @@ img {
   text-align: center;
   color: var(--greys---white);
 }
-/* .head-list {
-}
+
 .contact {
-} */
+  display: flex;
+  border: var(--greys---white);
+  background-color: var(--greys---white);
+  color: var(--greys---light-grey);
+  padding: 10px 21px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 4px;
+  width: 90px;
+  height: 34px;
+}
 .hero-main-cont {
   display: flex;
   flex-direction: row;
@@ -125,6 +140,8 @@ img {
   margin-top: 191px;
 }
 .play {
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
   padding: 11px;
   background-color: var(--greys---white);
@@ -132,9 +149,9 @@ img {
   align-items: center;
   justify-content: center;
   fill: var(--color---dark-green);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-/* .main-page {
-} */
+
 .film {
   margin-left: 10px;
   color: var(--greys---white);
@@ -146,8 +163,7 @@ img {
 .social-menu {
   margin-top: 81px;
 }
-/* .social-list {
-} */
+
 .social-link {
   writing-mode: vertical-rl;
   text-orientation: mixed;
@@ -254,7 +270,7 @@ img {
 /* ==================================================== */
 
 .third-section {
-  background-color: var();
+  background-color: var(--greys---white);
 }
 .thr-one-cont {
   display: flex;
@@ -276,16 +292,7 @@ img {
   height: 93px;
 }
 
-.third-title {
-}
-.main {
-}
-.page {
-}
-
-.logo-tipe {
-}
-*/ .main-title {
+.main-title {
   font-family: var(--second-family);
   font-weight: 900px;
   font-size: 30px;
@@ -307,3 +314,38 @@ img {
     padding: 0 15px;
   }
 } */
+@media screen and (max-width: 768px) {
+  .hero-cont {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero-play {
+    margin: 20px auto 0;
+    justify-content: center;
+  }
+
+  .head-menu {
+    display: none; /* або замінити на бургер-меню */
+  }
+
+  .social-cont {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .page-cont {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: clamp(24px, 5vw, 32px);
+}
+.container {
+  padding: 0 15px;
+}
