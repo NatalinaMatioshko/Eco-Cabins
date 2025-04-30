@@ -31,10 +31,9 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <main>
-      <!-- ====================first-section============================== -->
-
-      <section class="first-sect hero">
+    <!-- ====================hero-section============================== -->
+    <header>
+      <section class="hero-section">
         <div class="container head-cont">
           <a class="logo" href="./index.html">
             <svg class="icon-logo" width="135" height="25.83">
@@ -42,18 +41,20 @@
             </svg>
           </a>
 
-          <ul class="head-menu">
-            <li class="head-list">Modellen</li>
-            <li class="head-list">Kopen</li>
-            <li class="head-list">Huren</li>
-            <li class="head-list">Nieuws</li>
-            <li class="head-list contact">Contact</li>
-          </ul>
+          <nav>
+            <ul class="head-menu">
+              <li class="head-list">Modellen</li>
+              <li class="head-list">Kopen</li>
+              <li class="head-list">Huren</li>
+              <li class="head-list">Nieuws</li>
+              <li class="head-list contact">Contact</li>
+            </ul>
+          </nav>
         </div>
 
-        <div class="hero-main-cont">
+        <div class="container hero-main-cont">
           <div class="container hero-cont">
-            <h4 class="fourth-title">Duurzame tiny huisjes</h4>
+            <h4 class="hero-title">Duurzame tiny huisjes</h4>
             <h1 class="main-title">
               Een ecologisch tiny huisje is zoveel mogelijk opgebouwd uit
               duurzame natuurlijke materialen
@@ -66,7 +67,7 @@
                 <use href="./images/sprite.svg#play"></use>
               </svg>
             </div>
-            <p class="main-page film">Bekijk de film</p>
+            <p class="film">Bekijk de film</p>
           </div>
 
           <div class="container social-cont">
@@ -99,14 +100,16 @@
           </div>
         </div>
       </section>
+    </header>
+    <main>
       <!-- =========================second-section================================= -->
 
-      <section class="second-section">
-        <div class="container sec-cont">
-          <div class="container two-sec-frst-cont">
-            <div class="container two-sec-scnd-cont">
+      <section class="materials-section">
+        <div class="container materials-cont">
+          <div class="container mat-first-cont">
+            <div class="mat-sec-cont">
               <h2 class="sec-title">Duurzame materialen</h2>
-              <p class="main-page-sec">
+              <p class="sec-page">
                 Alle EcoCabins hebben een hoge isolatiewaarde, worden
                 geproduceerd met indien mogelijk duurzame en/of natuurlijke
                 materialen en hebben als opvallende uiterlijke kenmerk de ‘ronde
@@ -118,7 +121,7 @@
             </div>
           </div>
 
-          <div class="container two-sec-thrd-cont">
+          <div class="container mat-third-cont">
             <img
               class="materials"
               src="./images/second@2x.png"
@@ -126,9 +129,9 @@
             />
           </div>
 
-          <div class="container two-sec-frth-cont">
-            <div class="container two-sec-fifth-cont">
-              <h2 class="sec-title-two">Innovatie</h2>
+          <div class="container innovat-main-cont">
+            <div class="container innovat-cont">
+              <h2 class="innovat-sec-title">Innovatie</h2>
               <div class="container page-cont">
                 <p class="main-page">
                   Wij hebben als doel om de EcoCabins voortdurend verder te
@@ -149,60 +152,73 @@
           </div>
         </div>
       </section>
-      <!-- ========================================================== -->
-      <section class="third-section">
+      <!-- =========================third-section================================= -->
+      <section class="features-section">
         <div class="container">
-          <div class="container thr-one-cont">
-            <div class="container thr-two-cont">
+          <div class="container features-cont">
+            <div class="container feat-img-cont">
               <img
-                class="thr-sect-img"
+                class="feat-sect-img"
                 src="./images/last.png"
                 alt="One house"
               />
             </div>
-            <div class="container thr-thr-cont">
-              <ul class="thr-sect-menu">
-                <li class="thr-sect-list">
-                  <h3 class="third-title">Hout</h3>
-                  <p class="main page">
-                    De draagconstructies van EcoCabins bestaan uit hout. Hout is
-                    duurzaam en.
-                  </p>
+
+            <div class="container feat-main-cont">
+              <ul class="features-menu">
+                <li class="features-list">
+                  <div class="feat-con">
+                    <h3 class="features-title">Hout</h3>
+                    <p class="features-page">
+                      De draagconstructies van EcoCabins bestaan uit hout. Hout
+                      is duurzaam en.
+                    </p>
+                  </div>
                 </li>
-                <li class="thr-sect-list">
-                  <h3 class="third-title">Glaswol isolatie</h3>
-                  <p class="main page">
-                    De combinatie van glaswol met een houtskelet constructie
-                    geeft een.
-                  </p>
+                <li class="features-list">
+                  <div class="feat-con">
+                    <h3 class="features-title">Glaswol isolatie</h3>
+                    <p class="features-page">
+                      De combinatie van glaswol met een houtskelet constructie
+                      geeft een.
+                    </p>
+                  </div>
                 </li>
-                <li class="thr-sect-list">
-                  <h3 class="third-title">Afwerking</h3>
-                  <p class="main page">
-                    De draagconstructies van EcoCabins bestaan uit hout. Hout is
-                    duurzaam en.
-                  </p>
+                <li class="features-list">
+                  <div class="feat-con">
+                    <h3 class="features-title">Afwerking</h3>
+                    <p class="features-page">
+                      De draagconstructies van EcoCabins bestaan uit hout. Hout
+                      is duurzaam en.
+                    </p>
+                  </div>
                 </li>
-                <li class="thr-sect-list">
-                  <h3 class="third-title">Triple glas</h3>
-                  <p class="main page">
-                    De combinatie van glaswol met een houtskelet constructie
-                    geeft een.
-                  </p>
+                <li class="features-list">
+                  <div class="feat-con">
+                    <h3 class="features-title">Triple glas</h3>
+                    <p class="features-page">
+                      De combinatie van glaswol met een houtskelet constructie
+                      geeft een.
+                    </p>
+                  </div>
                 </li>
-                <li class="thr-sect-list">
-                  <h3 class="third-title">Stalen onderstel</h3>
-                  <p class="main page">
-                    Het stalen onderstel is sterk zijn en heeft de benodigde
-                    stijfheid die
-                  </p>
+                <li class="features-list">
+                  <div class="feat-con">
+                    <h3 class="features-title">Stalen onderstel</h3>
+                    <p class="features-page">
+                      Het stalen onderstel is sterk zijn en heeft de benodigde
+                      stijfheid die
+                    </p>
+                  </div>
                 </li>
-                <li class="thr-sect-list">
-                  <h3 class="third-title">Infrarood vloer</h3>
-                  <p class="main page">
-                    De vloer wordt opgewarmd middels opgewekte warmte uit eigen
-                    zonne-energie.
-                  </p>
+                <li class="features-list">
+                  <div class="feat-con">
+                    <h3 class="features-title">Infrarood vloer</h3>
+                    <p class="features-page">
+                      De vloer wordt opgewarmd middels opgewekte warmte uit
+                      eigen zonne-energie.
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -211,24 +227,27 @@
       </section>
     </main>
 
-    <!-- ===================================================== -->
+    <!-- =========================footer============================ -->
 
     <footer>
-      <address>
-        <a class="mail-link" href="mailto:info@eco-cabins.com"
-          >info@eco-cabins.com</a
-        >
-      </address>
-      <a class="logo-tipe" href="./index.html">
-        <svg class="icon-logo" width="135" height="25.83">
-          <use href="./images/sprite.svg#logo-full"></use>
-        </svg>
-      </a>
-
-      <ul>
-        <li>Cookies</li>
-        <li>Privacybeleid</li>
-      </ul>
+      <div class="container footer-wrapper">
+        <address>
+          <a class="mail-link" href="mailto:info@eco-cabins.com"
+            >info@eco-cabins.com</a
+          >
+        </address>
+        <a class="logo logo-tipe" href="./index.html">
+          <svg class="icon-logo" width="135" height="25.83">
+            <use href="./images/sprite.svg#logo-full"></use>
+          </svg>
+        </a>
+        <div class="container cook-cont">
+          <ul>
+            <li>Cookies</li>
+            <li>Privacybeleid</li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
