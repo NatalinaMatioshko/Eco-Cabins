@@ -48,12 +48,10 @@ img {
 }
 
 .container {
-  /* max-width: 320px; */
-  /* padding: 0 16px; */
   margin: 0 auto;
   width: 100%;
-  max-width: 1200px;
-  /* padding: 0 15px; */
+  max-width: 1000px;
+  padding: 0 15px;
 }
 /* ================= Header and Hero Section=========================== */
 
@@ -81,7 +79,7 @@ img {
   display: flex;
   margin-left: 488px;
   margin-top: 46px;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 40px;
   flex-direction: row;
   font-family: var(--font-family);
@@ -112,8 +110,8 @@ img {
 .hero-cont {
   margin-top: 184px;
   /* margin-left: 101px; */
-  width: 440px;
-  height: 115px;
+  /* width: 440px;
+  height: 115px; */
 }
 
 .hero-title {
@@ -128,8 +126,8 @@ img {
   font-weight: 900;
   font-size: 30px;
   color: var(--greys---white);
-  width: 440px;
-  height: 183px;
+  max-width: 440px;
+  /* height: 183px; */
 }
 
 .hero-play {
@@ -180,46 +178,49 @@ img {
   font-weight: 500;
   font-size: 10px;
 }
-/* ==================================================== */
+/* =====================second-section=============================== */
 
 .materials-section {
   background-color: var(--greys---white);
 }
 .mat-first-cont {
+  z-index: 1;
   margin-left: 0;
-  width: 616px;
-  height: 399px;
+  /* width: 616px;
+  height: 399px; */
   background-color: var(--greys---white);
 }
 .mat-sec-cont {
-  position: absolute;
+  /* position: absolute; */
   z-index: 2;
   /* margin-top: 563px; */
-  margin-left: 100px;
-  width: 400px;
-  height: 275px;
+  /* margin-left: 100px; */
+  max-width: 400px;
+  /* height: 275px; */
 }
 .innovat-main-cont {
   border: 1px solid var(--color---dark-green);
   /* width: 1000px; */
-  height: 478px;
+  /* height: 478px; */
   background: var(--color---dark-green);
 }
 .innovat-cont {
-  width: 803px;
-  height: 169px;
-  margin-left: 100px;
+  /* width: 803px; */
+  /* height: 169px; */
+  /* margin-left: 100px; */
   margin-bottom: 78px;
   justify-content: center;
 }
 
 .sec-title {
+  margin-top: 62px;
   font-family: var(--second-family);
   font-weight: 900;
   font-size: 30px;
   color: var(--color---dark-green);
 }
 .innovat-sec-title {
+  margin-top: 72px;
   font-family: var(--second-family);
   font-weight: 900;
   font-size: 30px;
@@ -231,6 +232,7 @@ img {
   gap: 43px;
 }
 .main-page {
+  margin-top: 11px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 14px;
@@ -251,6 +253,7 @@ img {
 }
 
 .btn-sec {
+  margin-top: 13px;
   border: 1px solid var(--greys---light-grey);
   border-radius: 4px;
   width: 90px;
@@ -283,30 +286,32 @@ img {
   flex-direction: row;
 }
 .feat-sect-img {
-  width: 355px;
-  height: 362px;
+  /* width: 355px;
+  height: 362px; */
   margin-top: 85px;
   margin-left: 100px;
 }
 .feat-main-cont {
   margin-top: 85px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 60px;
   display: flex;
-  flex-direction: column;
-  width: 370px;
-  height: 353px;
+  /* flex-direction: column; */
+  /* width: 370px;
+  height: 353px; */
 }
 .features-list {
   display: flex;
-  width: 155px;
-  height: 93px;
+  /* width: 155px;
+  height: 93px; */
   gap: 60px;
 }
 .feat-con {
   display: flex;
-  width: 155px;
-  height: 93px;
+  /* flex: 1 1 45%; */
+
+  /* width: 155px;
+  height: 93px; */
 }
 .features-title {
   font-family: var(--second-family);
@@ -326,12 +331,13 @@ img {
 /* ==================================================== */
 
 .footer-wrapper {
-  width: 1000px;
+  width: 100%;
+  padding: 20px 0;
   height: 92px;
   background-color: var(--color---dark-green);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .mail-link {
@@ -356,7 +362,7 @@ img {
   margin-left: 257px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
@@ -382,7 +388,7 @@ img {
 
   .head-menu {
     display: none; /* або замінити на бургер-меню */
-  }
+/* }
 
   .social-cont {
     justify-content: center;
@@ -402,4 +408,4 @@ h4 {
 }
 .container {
   padding: 0 15px;
-}
+} */
