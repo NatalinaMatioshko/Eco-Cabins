@@ -262,6 +262,7 @@ img {
   background-color: transparent;
 }
 .materials {
+  overflow: hidden;
   position: absolute;
   right: 100px;
   top: 524px;
@@ -292,7 +293,6 @@ img {
   /* flex-wrap: wrap; */
   gap: 60px;
   display: flex;
-  /* flex-direction: column; */
   /* width: 370px;
   height: 353px; */
 }
@@ -304,16 +304,26 @@ img {
 }
 .feat-con {
   display: flex;
-  /* flex: 1 1 45%; */
-
-  /* width: 155px;
-  height: 93px; */
+  flex: 1 1 45%;
+  flex-wrap: wrap;
+  width: 155px;
+  height: 93px;
 }
 .features-title {
   font-family: var(--second-family);
-  /* font-weight: 900; */
+  font-weight: 900;
   font-size: 18px;
   color: var(--color---dark-green);
+}
+.features-page {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+
+  /* line-height: 22px; */
+  line-height: 183%;
+  color: var(--greys---light-grey);
+  opacity: 0.7;
 }
 .features {
   font-family: var(--font-family);
