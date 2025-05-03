@@ -63,10 +63,6 @@ img {
   background-position: center;
   background-size: cover;
   background-color: var(--greys---white);
-  width: 100%;
-}
-.head-cont {
-  display: flex;
   align-items: center;
   /* margin-right: 101px; */
 }
