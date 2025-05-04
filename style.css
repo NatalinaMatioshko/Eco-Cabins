@@ -67,6 +67,10 @@ img {
   /* margin-right: 101px; */
 }
 
+@media (min-resolution: 192dpi) {
+  .hero-section {
+  }
+}
 .icon-logo {
   /* margin-left: 101px; */
   margin-top: 39px;
@@ -273,7 +277,7 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-/* ==================================================== */
+/* ==========================third-section========================== */
 
 .features-section {
   background-color: var(--greys---white);
@@ -298,11 +302,13 @@ img {
 }
 .features-list {
   display: flex;
+
   /* width: 155px;
   height: 93px; */
   gap: 60px;
 }
 .feat-con {
+  width: calc(100% / 5 - 60px);
   display: flex;
   flex: 1 1 45%;
   flex-wrap: wrap;
