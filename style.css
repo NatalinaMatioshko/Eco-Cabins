@@ -62,6 +62,7 @@ img {
   background-image: url(./images/bg-image.png);
   background-repeat: no-repeat;
   overflow: hidden;
+  width: 1000px;
 }
 .hero-section {
   min-height: 100vh;
