@@ -326,7 +326,7 @@ img {
   gap: 60px;
 }
 .feat-con {
-  width: calc(100% / 5 - 60px);
+  width: calc(100%- 300px) / 6;
   display: flex;
   flex: 1 1 45%;
   flex-wrap: wrap;
