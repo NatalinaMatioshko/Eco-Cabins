@@ -460,3 +460,43 @@ h4 {
     text-align: center;
   }
 }
+
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+.footer-wrapper {
+  width: 100%;
+  padding: 20px 0;
+  height: 92px;
+  background-color: var(--color---dark-green);
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.mail-link {
+  margin-left: 50px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--greys---white);
+  opacity: 0.6;
+}
+.cook-cont {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  text-align: right;
+  color: var(--greys---white);
+  opacity: 0.6;
+  gap: 30px;
+}
+
+.logo-tipe {
+  margin-left: 257px;
+}
